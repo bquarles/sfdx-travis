@@ -20,3 +20,6 @@ script:
 - sfdx force:source:push -u ciorg
 - sfdx force:apex:test:run -u ciorg -c -r human
 - sfdx force:org:delete -u ciorg -p
+notifications:
+  slack:
+    secure: ZvQsCnIyofSakMGCTlxVGhxmBxcGPRxB781duINlHRW2wMZyyW899DJx/RL0QdJHIAa3TQXOQkB6Yg7lS+hDWSt+vUB5YqxdbDC+12wQ43cnpAI4lnLoWX7WskxTnZ0pBUjatNz7/nc5RyV1tEmh+ow+6abEVO0Xm7TIPEt64qVIYIfrBodvNuRKoeq3wJwRmyyH590YNNNBDU0IBtRdPMIFb1V+nFkivl5q5NxP2L3ZXweL/9fiurcTAXbTj44F9uOdo37RcGSp37GSjlnEntpgTURs5bHxE1RccDKGh45TyL/9XsuUt+zPUyA/n7/CommgO/5wZXEKX2eim6y2nfzINcpZoWH+YLcfalFLRXWlrY0vA3ZyvUges6jn3SjajMd4lQBCkAekXgvEYP6TNOdJL6WOrCJj/w0P+Ejad7/y1H7BUqqn9eJiFnGF17mKKZcFThEtBC9elSe50bhAhVdUt70Z8PnJNjq6vEXJsTEaGFhGAMQBxvA5unet90yAL+wi/vP3s7c2V4bTuH/MkVhrDCi8lC0NjpjaHZbDS+EgRyI/lJHO3rrZYqxOgEbGl/RKsvfHJRiUNC+/0OLZdqHO7pYLOVFgRgPE2YNC8OUwsBTD9rm7HbP5pWFseXESyud+p/fkLXY5pY6qkXGDEjp7c2GMZOi7eBu3h0HkCws=
