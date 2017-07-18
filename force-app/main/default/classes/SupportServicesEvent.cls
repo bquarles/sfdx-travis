@@ -28,6 +28,4 @@ global with sharing class SupportServicesEvent implements Comparable {
         SupportServicesEvent compareToEvent = (SupportServicesEvent) compareTo;
         return(this.EventDatetime.getTime() - compareToEvent.EventDatetime.getTime()).intValue();
     }
-    
-    //test
 }
